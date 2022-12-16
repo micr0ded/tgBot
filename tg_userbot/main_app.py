@@ -14,6 +14,6 @@ def shitty_speaking() -> None:
 
     @app.on_message(filters.incoming & filters.text & filters.chat(-1001494269417))
     async def speak(client, message):
-        brain.do_kek(client, message, app)
+        brain(client, message, app)
         
 
