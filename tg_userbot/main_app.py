@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.enums import ParseMode, ChatType
 
 
-from brain import brain, Auth_data
+from brain import brain, auth_data
 
 
 def shitty_speaking() -> None:
