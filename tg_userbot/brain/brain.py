@@ -2,7 +2,7 @@ import random
 import re
 
 
-async def do_kek(client, message, app):
+async def brain(client, message, app):
     text = message.text.lower()
     if message.from_user.id != 588675218:
         text_split = text.split()[-1]
